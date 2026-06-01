@@ -6,6 +6,9 @@
 #define V8_CODEGEN_TNODE_H_
 
 #include "src/codegen/machine-type.h"
+#include "src/objects/cell.h"
+#include "src/objects/js-generator.h"
+#include "src/objects/js-promise.h"
 
 namespace v8 {
 namespace internal {
